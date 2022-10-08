@@ -9,6 +9,8 @@ void time(int seconds, int hours, int minutes, int secs){
   hours= (seconds/3600) % 60;
   minutes = (seconds /60) % 60;
   secs = seconds % 60;
+
+  cout << hours << " Hours " << minutes << " Minutes " << seconds << " Seconds ";
 }
 
   
